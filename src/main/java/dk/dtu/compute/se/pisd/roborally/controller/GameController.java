@@ -245,4 +245,18 @@ public class GameController {
             target.setCard(sourceCard);
             source.setCard(null);
             return true;
-      
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * A method called when no corresponding controller operation is implemented yet. This
+     * should eventually be removed.
+     */
+    public void notImplemented() {
+        // XXX just for now to indicate that the actual method is not yet implemented
+        assert false;
+    }
+
+}
