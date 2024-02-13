@@ -90,14 +90,30 @@ public class PlayerView extends Tab implements ViewObserver {
         //      players, but on the PlayersView (view for all players). This should be
         //      refactored.
 
+        /**
+         * V2 Task:
+         * Updates the action listeners for the GUI buttons "Finish Programming",
+         * "Execute Program", and "Execute Current Register". Previously linked to
+         * a placeholder {@code notImplemented()} method, these buttons are now properly
+         * connected to their respective operational methods in the {@code GameController}.
+         *
+         * <p>This adjustment allows for the correct execution of game logic when
+         * the buttons are interacted with by the user, enabling the transition from
+         * programming phase to execution phase within the game.</p>
+         *
+         * @see GameController#finishProgrammingPhase()
+         * @see GameController#executePrograms()
+         * @see GameController#executeStep()
+         */
+
         finishButton = new Button("Finish Programming");
-        finishButton.setOnAction( e -> gameController.notImplemented());
+        finishButton.setOnAction( e -> gameController.finishProgrammingPhase());
 
         executeButton = new Button("Execute Program");
-        executeButton.setOnAction( e-> gameController.notImplemented());
+        executeButton.setOnAction( e-> gameController.executePrograms());
 
         stepButton = new Button("Execute Current Register");
-        stepButton.setOnAction( e-> gameController.notImplemented());
+        stepButton.setOnAction( e-> gameController.executeStep());
 
         buttonPanel = new VBox(finishButton, executeButton, stepButton);
         buttonPanel.setAlignment(Pos.CENTER_LEFT);

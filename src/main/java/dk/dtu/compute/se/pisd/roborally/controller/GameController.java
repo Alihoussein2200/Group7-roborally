@@ -218,24 +218,74 @@ public class GameController {
         }
     }
 
+    /**
+     * Moves the player forward based on their current heading.
+     *
+     * @param player The player to move. If the player or their heading is null, no action is taken.
+     */
+
     // TODO Assignment V2
     public void moveForward(@NotNull Player player) {
 
+        if (player != null && player.getHeading() != null) {
+            // Get the current space and direction of the player
+            Space currentSpace = player.getSpace();
+            Heading direction = player.getHeading();
+
+            // Calculate the next space based on the player's direction
+            Space nextSpace = board.getNeighbour(currentSpace, direction);
+
+            // Move the player if the next space is not occupied
+            if (nextSpace != null && nextSpace.getPlayer() == null) {
+                player.setSpace(nextSpace);
+            }
+        }
     }
+    /**
+     * Fast forwards the player by moving the player three spaces ahead.
+     *
+     * @param player The player to fast forward. The action is skipped if the player or their heading is null.
+     */
 
     // TODO Assignment V2
     public void fastForward(@NotNull Player player) {
-
+        if (player != null && player.getHeading() != null) {
+            for (int i = 0; i < 3; i++) {
+                moveForward(player);
+            }
+        }
     }
+
+    /**
+     * Rotates the player's heading to the right.
+     *
+     * @param player The player to rotate. No action is taken if the player or their heading is null.
+     */
 
     // TODO Assignment V2
     public void turnRight(@NotNull Player player) {
-
+        if(player != null && player.getHeading() != null){
+            Heading nextHeading = player.getHeading().next();
+            if(nextHeading != null) {
+                player.setHeading(nextHeading);
+            }
+        }
     }
+
+    /**
+     * Rotates the player's heading to the left.
+     *
+     * @param player The player to rotate. No action is taken if the player or their heading is null.
+     */
 
     // TODO Assignment V2
     public void turnLeft(@NotNull Player player) {
-
+        if(player != null && player.getHeading() != null){
+            Heading nextHeading = player.getHeading().prev();
+            if(nextHeading != null) {
+                player.setHeading(nextHeading);
+            }
+        }
     }
 
     public boolean moveCards(@NotNull CommandCardField source, @NotNull CommandCardField target) {

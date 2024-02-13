@@ -63,6 +63,8 @@ class GameControllerTest {
         Assertions.assertEquals(player2, board.getCurrentPlayer(), "Current player should be " + player2.getName() +"!");
     }
 
+     */
+
     @Test
     void moveForward() {
         Board board = gameController.board;
@@ -75,6 +77,38 @@ class GameControllerTest {
         Assertions.assertNull(board.getSpace(0, 0).getPlayer(), "Space (0,0) should be empty!");
     }
 
-     */
+    @Test
+    void FastForward() {
+        Board board = gameController.board;
+        Player current = board.getCurrentPlayer();
+
+        // initial position is at (0, 0) and heading SOUTH
+        gameController.fastForward(current);
+
+        // Fast forward moves the player 3 spaces forward from the initial position
+        Assertions.assertEquals(current, board.getSpace(0, 3).getPlayer(), "Player should be at Space (0,3)!");
+        Assertions.assertEquals(Heading.SOUTH, current.getHeading(), "Player's heading should still be SOUTH!");
+    }
+
+    @Test
+    void TurnRight() {
+        Board board = gameController.board;
+        Player current = board.getCurrentPlayer();
+
+        gameController.turnRight(current);
+
+        Assertions.assertEquals(Heading.WEST, current.getHeading(), "Player's heading should now be WEST!");
+    }
+    @Test
+    void TurnLeft() {
+        Board board = gameController.board;
+        Player current = board.getCurrentPlayer();
+
+        // Assuming initial heading is SOUTH
+        gameController.turnLeft(current);
+
+        Assertions.assertEquals(Heading.EAST, current.getHeading(), "Player's heading should now be EAST!");
+    }
+
 
 }
