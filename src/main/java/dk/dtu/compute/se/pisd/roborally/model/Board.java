@@ -217,7 +217,8 @@ public class Board extends Subject {
 
         // XXX: V1 add the move count to the status message
         // XXX: V2 changed the status so that it shows the phase, the current player and the number of steps
-        return "Player = " + getCurrentPlayer().getName() +
+        return "Phase = " + getPhase().toString() + ", " +
+                "Player = " + getCurrentPlayer().getName() + ", " +
                 "Move = " + getCounter();
     }
 
