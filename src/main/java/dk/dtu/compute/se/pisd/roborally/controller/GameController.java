@@ -160,12 +160,15 @@ public class GameController {
 
     public void executeOptionAndContinue(Command option) {
         Player currentPlayer = board.getCurrentPlayer();
-        if (currentPlayer != null && option != null) {
-            executeCommand(currentPlayer, option); // Execute the chosen option
+        if (currentPlayer != null && option != null) {// Execute the chosen option
             board.setPhase(Phase.ACTIVATION); // Switch back to ACTIVATION phase
 
             executeNextStepX(option);
+            while (board.getPhase() == Phase.ACTIVATION && !board.isStepMode()) {
+                executeNextStep();
+            }
         }
+
     }
 
     private void executeNextStepX(@NotNull Command option) {
@@ -179,8 +182,9 @@ public class GameController {
                     if(!command.isInteractive()) {
                         board.setPhase(Phase.PLAYER_INTERACTION);
                         assert false;
+                    } else {
+                        executeCommand(currentPlayer, option);
                     }
-                    executeCommand(currentPlayer, option);
                 }
                 int nextPlayerNumber = board.getPlayerNumber(currentPlayer) + 1;
                 if (nextPlayerNumber < board.getPlayersNumber()) {
@@ -217,8 +221,9 @@ public class GameController {
                     if(command.isInteractive()){
                         board.setPhase(Phase.PLAYER_INTERACTION);
                         return;
+                    } else {
+                        executeCommand(currentPlayer, command);
                     }
-                    executeCommand(currentPlayer, command);
                 }
                 int nextPlayerNumber = board.getPlayerNumber(currentPlayer) + 1;
                 if (nextPlayerNumber < board.getPlayersNumber()) {
