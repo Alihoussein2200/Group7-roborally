@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edbb2cab-98af-462a-bc0b-d8785176dbf1" name="Changes" comment="V4a - 1.1.4" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodyActiveAccount">
+    <option name="activeAccountId" value="VXNlcjozMDM3NzA=" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alihoussein2200&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e9304a33-ef44-45c5-90ea-36ed2dd6de9f" />
+        <option name="url" value="https://github.com/Alihoussein2200/Group7-roborally.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2bxkfqw1aJnl7pDSR2VlVZZbYoB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.StartRoboRally.executor": "Run",
+    "JUnit.GameControllerTest.FastForward.executor": "Run",
+    "JUnit.GameControllerTest.fastForward.executor": "Run",
+    "JUnit.GameControllerTest.moveForward.executor": "Run",
+    "JUnit.GameControllerTest.testFastForward.executor": "Run",
+    "JUnit.GameControllerTest.testTurnLeft.executor": "Run",
+    "JUnit.GameControllerTest.testTurnRight.executor": "Run",
+    "JUnit.GameControllerTest.testV1.executor": "Run",
+    "Maven.roborally [org.apache.maven.plugins:maven-javadoc-plugin:3.6.3:aggregate].executor": "Run",
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "alis-branch",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="/private/var/folders/kg/_p8_j9pj6cbc7xhnghlry2w00000gn/T/qodana_output/qodana.sarif.json" />
+        <option name="reportGuid" value="bca5f9f6-8698-4460-9461-eafed62e106f" />
+        <option name="reportName" value="Group7-roborally/qodana/2024-03-12" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/kg/_p8_j9pj6cbc7xhnghlry2w00000gn/T/qodana_output/qodana.sarif.json" reportGuid="bca5f9f6-8698-4460-9461-eafed62e106f" reportId="Group7-roborally/qodana/2024-03-12" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/controller" />
+      <recent name="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StartRoboRally">
+    <configuration name="StartRoboRally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.dtu.compute.se.pisd.roborally.StartRoboRally" />
+      <module name="roborally" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.dtu.compute.se.pisd.roborally.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="Group7-roborally" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GameControllerTest.FastForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="roborally" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.dtu.compute.se.pisd.roborally.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dk.dtu.compute.se.pisd.roborally.controller" />
+      <option name="MAIN_CLASS_NAME" value="dk.dtu.compute.se.pisd.roborally.controller.GameControllerTest" />
+      <option name="METHOD_NAME" value="FastForward" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameControllerTest.fastForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="roborally" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.dtu.compute.se.pisd.roborally.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dk.dtu.compute.se.pisd.roborally.controller" />
+      <option name="MAIN_CLASS_NAME" value="dk.dtu.compute.se.pisd.roborally.controller.GameControllerTest" />
+      <option name="METHOD_NAME" value="fastForward" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameControllerTest.moveForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="roborally" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.dtu.compute.se.pisd.roborally.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dk.dtu.compute.se.pisd.roborally.controller" />
+      <option name="MAIN_CLASS_NAME" value="dk.dtu.compute.se.pisd.roborally.controller.GameControllerTest" />
+      <option name="METHOD_NAME" value="moveForward" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Group7-roborally" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Group7-roborally" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Group7-roborally" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Group7-roborally" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Group7-roborally" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Group7-roborally" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartRoboRally" />
+        <item itemvalue="JUnit.GameControllerTest.FastForward" />
+        <item itemvalue="JUnit.GameControllerTest.moveForward" />
+        <item itemvalue="JUnit.GameControllerTest.fastForward" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edbb2cab-98af-462a-bc0b-d8785176dbf1" name="Changes" comment="" />
+      <created>1707164224453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707164224453</updated>
+      <workItem from="1707164226385" duration="1810000" />
+      <workItem from="1707774528612" duration="11077000" />
+      <workItem from="1707826203058" duration="397000" />
+      <workItem from="1707826756327" duration="7391000" />
+      <workItem from="1707850976302" duration="64000" />
+      <workItem from="1707851183640" duration="2832000" />
+      <workItem from="1707854870442" duration="8713000" />
+      <workItem from="1708431995111" duration="320000" />
+      <workItem from="1708435708775" duration="4239000" />
+      <workItem from="1709641307535" duration="3086000" />
+      <workItem from="1710254586656" duration="732000" />
+      <workItem from="1710255572347" duration="44000" />
+    </task>
+    <task id="LOCAL-00001" summary="V2 complete">
+      <option name="closed" value="true" />
+      <created>1707791515573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707791515573</updated>
+    </task>
+    <task id="LOCAL-00002" summary="V2 complete">
+      <option name="closed" value="true" />
+      <created>1707826934415</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707826934415</updated>
+    </task>
+    <task id="LOCAL-00003" summary="V2 complete">
+      <option name="closed" value="true" />
+      <created>1707826985609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707826985609</updated>
+    </task>
+    <task id="LOCAL-00004" summary="V3 - Command left and right">
+      <option name="closed" value="true" />
+      <created>1707852649931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707852649931</updated>
+    </task>
+    <task id="LOCAL-00005" summary="V3 - Command left and right">
+      <option name="closed" value="true" />
+      <created>1707852887875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707852887875</updated>
+    </task>
+    <task id="LOCAL-00006" summary="V3 - Command left and right">
+      <option name="closed" value="true" />
+      <created>1707938073239</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707938073239</updated>
+    </task>
+    <task id="LOCAL-00007" summary="V3 - Command left and right (bug fix)">
+      <option name="closed" value="true" />
+      <created>1708441856075</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708441856075</updated>
+    </task>
+    <task id="LOCAL-00008" summary="V3 - Command left and right (bug fix)">
+      <option name="closed" value="true" />
+      <created>1710255158304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710255158304</updated>
+    </task>
+    <task id="LOCAL-00009" summary="V4a - 1.1.4">
+      <option name="closed" value="true" />
+      <created>1710255204435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710255204435</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project" />
+    <MESSAGE value="V2 complete" />
+    <MESSAGE value="V3 - Command left and right" />
+    <MESSAGE value="V3 - Command left and right (bug fix)" />
+    <MESSAGE value="V4a - 1.1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4a - 1.1.4" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
