@@ -213,7 +213,7 @@ public class GameController {
     private void executeNextStep() {
         Player currentPlayer = board.getCurrentPlayer();
         if (board.getPhase() == Phase.ACTIVATION && currentPlayer != null) {
-            int step = board.getStep();
+            int step = board.   getStep();
             if (step >= 0 && step < Player.NO_REGISTERS) {
                 CommandCard card = currentPlayer.getProgramField(step).getCard();
                 if (card != null) {
@@ -295,6 +295,10 @@ public class GameController {
             // Move the player if the next space is not occupied
             if (nextSpace != null && nextSpace.getPlayer() == null) {
                 player.setSpace(nextSpace);
+            } else if (nextSpace != null && nextSpace.getPlayer() != null) {
+                // Try to push the robot if the next space is occupied
+                pushRobot(player, nextSpace.getPlayer());
+
             }
         }
     }
@@ -309,6 +313,7 @@ public class GameController {
         if (player != null && player.getHeading() != null) {
             for (int i = 0; i < 3; i++) {
                 moveForward(player);
+
             }
         }
     }
@@ -356,6 +361,41 @@ public class GameController {
             return false;
         }
     }
+
+
+
+    /**
+     * Checks if a robot can be pushed.
+     *
+     * @param pusher The robot doing the pushing.
+     * @return True if the robot can be pushed, false otherwise.
+     */
+    public boolean pushable(@NotNull Player pusher) {
+        Space neighbour = board.getNeighbour(pusher.getSpace(), pusher.getHeading());
+        return neighbour != null && neighbour.getPlayer() == null;
+    }
+
+    /**
+     * Pushes a row of robots in the direction of the pushing robot.
+     *
+     * @param pushing The robot doing the pushing.
+     * @param pushed  The robot being pushed.
+     */
+    public void pushRobot(@NotNull Player pushing, @NotNull Player pushed) {
+        if (pushable(pushing)) {
+            Space neighbour = board.getNeighbour(pushed.getSpace(), pushing.getHeading());
+            if (neighbour == null ) {
+                return;
+            }
+            if (neighbour.getPlayer() != null) {
+                pushRobot(pushing, board.getPlayer(board.getPlayerNumber(board.getNeighbour(pushed.getSpace(), pushing.getHeading()).getPlayer())));
+            }
+            pushed.setSpace(neighbour);
+        } else {
+            pushed.setSpace(pushed.getSpace());
+        }
+    }
+
 
     /**
      * A method called when no corresponding controller operation is implemented yet. This
