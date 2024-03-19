@@ -81,6 +81,20 @@ public class BoardFactory {
         action.setHeading(Heading.WEST);
         space.getActions().add(action);
 
+        //* Implementering af Walls
+
+        space = board.getSpace(0,0);
+        space.getWalls().add(Heading.SOUTH);
+
+        space = board.getSpace(1,0);
+        space.getWalls().add(Heading.NORTH);
+
+        space = board.getSpace(1,1);
+        space.getWalls().add(Heading.WEST);
+
+        space = board.getSpace(5,5);
+        space.getWalls().add(Heading.SOUTH);
+
         return board;
     }
 
