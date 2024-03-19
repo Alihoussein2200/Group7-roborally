@@ -47,8 +47,6 @@ public class RoboRally extends Application {
 
     // private AppController appController;
 
-    //* test test test
-
     @Override
     public void init() throws Exception {
         super.init();
